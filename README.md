@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![MasterHead](https://i.ibb.co/hZQZqNx/banner-1.png)](https://github.com/robleslf)
+[![MasterHead](https://i.ibb.co/3dHZ9cw/banner-el-bicho.png)](https://github.com/robleslf)
