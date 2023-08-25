@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ***
 ### My GitHub Stats
 ***
-![robleslf's GitHub stats](https://github-readme-stats.vercel.app/api?username=robleslf&show_icons=true&theme=trasparent)
+![robleslf's GitHub stats](https://github-readme-stats.vercel.app/api?username=robleslf&show_icons=true&theme=transparent)
 ***
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=robleslf&layout=donut)](https://github.com/robleslf/github-readme-stats)
 ***
