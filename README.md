@@ -14,8 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![MasterHead](![image](https://github.com/user-attachments/assets/875115b2-8e5c-4ae0-be22-fa10e7041467)
-)](https://github.com/robleslf)
+[![MasterHead](https://static.vecteezy.com/system/resources/previews/059/049/521/non_2x/eurasian-magpie-bird-detailed-profile-image-high-resolution-studio-shot-black-background-free-png.png)
 
 
 ***
