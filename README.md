@@ -14,8 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![MasterHead](https://static.vecteezy.com/system/resources/previews/059/049/521/non_2x/eurasian-magpie-bird-detailed-profile-image-high-resolution-studio-shot-black-background-free-png.png)
-
+<p align="center">
+  <img src="https://static.vecteezy.com/system/resources/previews/059/049/521/non_2x/eurasian-magpie-bird-detailed-profile-image-high-resolution-studio-shot-black-background-free-png.png" alt="MasterHead" width="300"/>
+</p>
 
 ***
 [![trophy](https://github-profile-trophy.vercel.app/?username=robleslf&theme=darkhub)](https://github.com/robleslf/github-profile-trophy)
