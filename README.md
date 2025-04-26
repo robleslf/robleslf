@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![MasterHead](https://static.vecteezy.com/system/resources/previews/059/049/521/non_2x/eurasian-magpie-bird-detailed-profile-image-high-resolution-studio-shot-black-background-free-png.png)
+![MasterHead](https://static.vecteezy.com/system/resources/previews/059/049/521/non_2x/eurasian-magpie-bird-detailed-profile-image-high-resolution-studio-shot-black-background-free-png.png)
 
 
 ***
