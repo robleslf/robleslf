@@ -2,11 +2,11 @@ name: Generate Trophies
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Se ejecuta cada noche a las 00:00
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
+    - cron: "0 0 * * *" # Cada medianoche
+  workflow_dispatch: # Para ejecutarlo tú a mano
 
 permissions:
-  contents: write # Permiso para que el bot pueda subir el archivo al repo
+  contents: write
 
 jobs:
   build:
@@ -19,13 +19,13 @@ jobs:
         with:
           username: robleslf
           output_path: trophy.svg
-          column: 7
           theme: shadow_blue
+          # Nota: He quitado 'column' porque no es un parámetro válido aquí.
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add trophy.svg
-          git commit -m "Update trophies" || exit 0 # Si no hay cambios, no falla
+          git commit -m "Update trophies" || exit 0
           git push
