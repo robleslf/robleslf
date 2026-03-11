@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 <!-- Trofeos como banner superior centrado -->
 <p align="center">
   <a href="https://github.com/robleslf/robleslf">
-    <img src="./trophy.svg" alt="Mis Trofeos de GitHub" />
+    <img src="./trophy.svg" width="800" alt="Mis Trofeos" />
   </a>
 </p>
 
