@@ -16,11 +16,11 @@ jobs:
 
       - name: Download Trophies
         run: |
-          # Descargamos el archivo directamente con curl
-          curl "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=shadow_blue&column=7" -o github-trophies.svg
+          # Usamos 'darkhub' que es compatible y se ve genial
+          curl -L "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=darkhub&column=7" -o github-trophies.svg
 
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update trophies"
+          commit_message: "Update trophies with valid theme"
           file_pattern: 'github-trophies.svg'
