@@ -29,6 +29,10 @@ Here are some ideas to get you started:
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=robleslf&theme=github-compact&area=true&hide_border=true" width="800" alt="Activity Graph" />
+</p>
+
 ***
 ### My GitHub Stats
 ***
@@ -47,3 +51,5 @@ Here are some ideas to get you started:
     </td>
   </tr>
 </table>
+
+
