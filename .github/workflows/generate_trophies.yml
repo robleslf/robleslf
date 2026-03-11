@@ -2,8 +2,8 @@ name: Generate Trophies
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Cada medianoche
-  workflow_dispatch: # Para ejecutarlo tú a mano
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,15 +17,13 @@ jobs:
       - name: Generate Trophies
         uses: ryo-ma/github-profile-trophy@master
         with:
-          username: robleslf
+          username: ${{ github.repository_owner }}
           output_path: trophy.svg
           theme: shadow_blue
-          # Nota: He quitado 'column' porque no es un parámetro válido aquí.
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add trophy.svg
-          git commit -m "Update trophies" || exit 0
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update trophies"
+          file_pattern: 'trophy.svg'
