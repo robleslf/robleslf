@@ -24,8 +24,8 @@ Here are some ideas to get you started:
 
 <!-- Trofeos como banner superior centrado -->
 <p align="center">
-  <a href="https://github.com/robleslf">
-    <img src="https://github-profile-trophy.vercel.app/?username=robleslf&theme=radical&column=7&margin-w=15" alt="[]" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=robleslf&theme=shadow_blue&column=7" alt="[]" />
   </a>
 </p>
 
