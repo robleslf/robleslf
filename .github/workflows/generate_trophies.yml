@@ -16,13 +16,23 @@ jobs:
 
       - name: Download Trophies
         run: |
-          # Borramos el archivo viejo por si acaso
+          # 1. Borramos rastro de errores anteriores
           rm -f github-trophies.svg
-          # Descargamos usando el tema 'ocean' (el azul de los trofeos)
-          curl -L -H "User-Agent: Mozilla/5.0" "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=ocean&column=7" -o github-trophies.svg
+          
+          # 2. Descarga limpia (Sin temas extra para asegurar que el servidor responda)
+          # Usamos un tema que es imposible que falle: 'flat' o simplemente nada.
+          curl -L "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=flat" -o github-trophies.svg
+          
+          # 3. Verificamos si lo que bajamos es un SVG real o un error
+          if grep -q "<svg" github-trophies.svg; then
+            echo "Imagen descargada correctamente"
+          else
+            echo "Error: El servidor no devolvió una imagen válida"
+            exit 1
+          fi
 
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update trophies with ocean theme"
+          commit_message: "Update trophies flat theme"
           file_pattern: 'github-trophies.svg'
