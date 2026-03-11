@@ -14,19 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ESTE PASO BORRA CUALQUIER CARPETA QUE ESTÉ MOLESTANDO
-      - name: Clean potential directories
+      - name: Download Trophies
         run: |
-          rm -rf github-trophies.svg
-          rm -rf trophy.svg
-
-      - name: Generate Trophies
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-          username: ${{ github.repository_owner }}
-          output_path: github-trophies.svg
-          theme: shadow_blue
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Descargamos el archivo directamente con curl
+          curl "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=shadow_blue&column=7" -o github-trophies.svg
 
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
