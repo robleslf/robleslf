@@ -22,12 +22,6 @@ Here are some ideas to get you started:
 
 ***
 
-<!-- Trofeos como banner superior centrado -->
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=robleslf&theme=shadow_blue&column=7" alt="[]" />
-  </a>
-</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=robleslf&theme=github-compact&area=true&hide_border=true" width="800" alt="Activity Graph" />
